@@ -4,7 +4,7 @@ PATH
     sidekiq-merger (0.0.10)
       activesupport (>= 3.2, < 6)
       concurrent-ruby (~> 1.0)
-      sidekiq (>= 3.4, < 5)
+      sidekiq (>= 3.4, < 6)
 
 GEM
   remote: https://rubygems.org/
