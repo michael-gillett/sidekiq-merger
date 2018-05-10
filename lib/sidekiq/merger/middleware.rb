@@ -16,7 +16,7 @@ class Sidekiq::Merger::Middleware
       false
     else
       msg["args"] = [msg["args"]] unless msg.delete("merged")
-      yield(worker_class, msg, queue, redis_pool)
+      yield
     end
   end
 end
